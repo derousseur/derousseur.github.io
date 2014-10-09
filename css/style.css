@@ -13,7 +13,7 @@ body {
 }
 
 li a:hover{
-  color: #8800ae;
+  color: #9016b2;
 }
 
 .header{
@@ -27,18 +27,18 @@ li a:hover{
 
 .logo{
     font-family: 'Megrim', cursive;
-    color: #8800ae;
+    color: #9016b2;
     font-size:75px;
 }
 
 .logomini{
     font-family: 'Megrim', cursive;
-    color: #8800ae;
+    color: #9016b2;
 }
 
 .register{
-  border-color: #8800ae;
-  background: #8800ae;
+  border-color: #9016b2;
+  background: #9016b2;
   color: white;
   width: 200px;
   box-shadow: 0px 3px 3px #888888;
@@ -52,7 +52,7 @@ li a:hover{
   font-family: 'Megrim', cursive;
   clear:both;
   padding-bottom: 40px;
-  color: #8800ae;
+  color: #9016b2;
 }
 
 .longtext{
@@ -85,7 +85,7 @@ li a:hover{
   padding: 50px 25px;
   border-bottom-style: solid;
   border-width: 1px;
-  border-color: #8800ae;
+  border-color: #9016b2;
 }
 
 .topsection{
@@ -97,7 +97,7 @@ li a:hover{
   width: 200px;
   border-style: solid;
   border-width: 1px;
-  border-color: #8800ae;
+  border-color: #9016b2;
   padding-left: 5px;
 }
 
