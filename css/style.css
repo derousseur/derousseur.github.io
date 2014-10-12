@@ -47,6 +47,13 @@ li a:hover{
   background: white;
 }
 
+.boldtext{
+  font-weight: 900;
+}
+
+.mediumtext{
+  font-weight: 700;
+}
 
 .titles{
   font-family: 'Megrim', cursive;
@@ -72,13 +79,6 @@ li a:hover{
   max-height: 200px;
 }
 
-.videointro{
-  bottom:0;
-}
-
-.backvideo{
-  position: absolute;
-}
 
 
 .sections{
