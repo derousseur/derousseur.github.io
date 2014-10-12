@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Montez);
+@import url(http://fonts.googleapis.com/css?family=Megrim);
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 @import url(http://fonts.googleapis.com/css?family=Lato:400);
 @import url(http://fonts.googleapis.com/css?family=Lato:700);
-@import url(http://fonts.googleapis.com/css?family=Overlock+SC|Nixie+One|Voces|Overlock|Lato|Sorts+Mill+Goudy|Montez|Ovo|Josefin+Slab|Libre+Baskerville|EB+Garamond|Megrim|Expletus+Sans|Buda:300|Raleway+Dots|Forum|Open+Sans);
+
 
 
 body {
@@ -40,6 +40,7 @@ a:hover{
 .logomini{
     font-family: 'Megrim', cursive;
     color: #9016b2;
+    font-weight: bold;
 }
 
 .buttonlink{
