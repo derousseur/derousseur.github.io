@@ -18,6 +18,10 @@ li a:hover{
   color: #9016b2;
 }
 
+a:hover{
+  color: #9016b2;
+}
+
 .header{
   background: url(http://derousseur.github.io/img/header.png);
   opacity: 0.95;
