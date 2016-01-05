@@ -11,6 +11,9 @@ body {
     padding-top: 25px;
     /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: 'Lato', sans-serif;   	
+    line-height: 2em;
+    color: black;
+    /* background-color: #fffdff; */
 }
 wrapper {
 width: 100%;
@@ -31,7 +34,7 @@ a{
 }
 a:hover{
   text-shadow:0px 0px 0px transparent;
-  box-shadow:0px 0px 0px transparent;
+/*   box-shadow:0px 0px 0px transparent; */
   color:inherit;
   text-decoration: inherit;}
 
@@ -144,6 +147,11 @@ li a:hover{
     color: #9016b2;
     font-size:75px;
 }
+.main-title{
+    font-family: 'Megrim', cursive;
+    color: #9016b2;
+    font-size:75px;
+}
 
 .logomini{
     font-family: 'Megrim', cursive;
@@ -153,6 +161,16 @@ li a:hover{
 
 
 /* Text variations*/
+.labeltxt{
+	color: #9016b2;
+	}
+.lead{
+	font-size: 18px;
+	line-height: 1.6em;
+    font-weight: 300;
+    
+    
+}
 strong{
 	font-weight: 400;
 }
@@ -170,6 +188,7 @@ strong{
 
 .longtext{
   font-size:18px;
+  color: black;
 }
 q {
   font-size:18px;
@@ -223,6 +242,10 @@ q {
     padding-top: 21px;
 }
 
+.not-working{
+	text-decoration: line-through;
+}
+
 /* Imgs*/
 .icons{
   max-height: 50px;
@@ -230,7 +253,7 @@ q {
 
 
 /* Div borders and backgrounds or decoration*/
-.sections {
+section {
   padding: 40px 0px 50px 0px;
   border-top-style: solid;
   border-width: 1px;
@@ -354,13 +377,92 @@ q {
   padding-bottom: 15px;
 }
 
+.project-item{
+	max-width: 30%;
+	margin-top: 10px;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+	box-shadow: 0px 2px 5px #acacac;
+}
+.margin-left{
+	margin-left: 1%;
+}
+.col-offset{
+	margin-left: 8%;
+}
+.project-item2{
+	max-width: 40%;
+	margin-top: 10px;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+	box-shadow: 0px 2px 5px #acacac;
+}
+.col-offset2{
+	margin-left: 16%;
+}
 
 
 
+@media (min-width: 1250px) {
+	.bubble {
+	background-color: #ffffff;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	top:50;
+	left:50;
+	margin-left:-60px; /*half width*/
+	margin-top:-60px;
+	position:relative;
+	margin: 0 auto;
+	}
 
+.bubble:before{
+	content:'';
+	position:absolute;
+	z-index:-1;
+	border-radius: 50%;
+	width: 94px;
+	height: 94px;
+	left:-2px;
+	top:-2px;
+	image-align:center;
+	
+	background: -moz-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(20%,#DCBCF5), color-stop(40%,#C6D3FF), color-stop(60%,#C1EAFF), color-stop(80%,#B4F4FF), color-stop(100%,#E5FBD3));
+	background: -webkit-linear-gradient(left, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -o-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: -ms-linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
+	background: linear-gradient(135deg, #DCBCF5 20%, #C6D3FF 40%, #C1EAFF 60%, #B4F4FF 80%, #E5FBD3 100%);
 
+}
+	
+	.bubbletext {
+	color: #7f7f7f;
+	font-size:15px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+}
+.bubbletext2 {
+	color: #7f7f7f;
+	font-size:15px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 28px;
+}
+	}
 
-
+.hidden {
+	display: none;
+	}
+.visible {
+	display: inherit !important;
+	}
 
 
 
@@ -370,8 +472,12 @@ q {
 .in-body {
 	margin: auto;
 }
+.spacebetween{
+	margin: 10px;
+}
 
 /* Links and hover*/
+
 .buttonlink{
   margin-top: 25px;
   font-family: 'Lato', sans-serif;
@@ -425,17 +531,22 @@ q {
 }
 
 /* Text variations*/
+.main-title{
+    font-family: 'Megrim', cursive;
+    color: #9016b2;
+    font-size:65px;
+}
 .lead{
 	  font-size: 20px;
   }
 
 .longtext{
-  font-size:20px;
+  font-size:1.2em;
 }
 
 .abouttext{
   padding-top:10px;
-  font-size:20px;
+  font-size:1.2em;
 }
 
 .smalltext{
@@ -501,6 +612,38 @@ q {
 
 }
 
+.project-item{
+	max-width: 100%;
+	margin-top: 1%;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+}
+.margin-left{
+	margin-left: 0;
+}
+.col-offset{
+	margin-left: 0;
+}
+.project-item2{
+	max-width: 100%;
+	margin-top: 1%;
+	padding: 15px;
+	float: left;
+	display: inline-block;
+}
+.col-offset2{
+	margin-left: 0;
+}
+.projectimg{
+	size: 50%;
+	float: left;
+}
+.project-pre-txt{
+	width: 50%;
+	float: right;
+}
+
 /* Paddings and aligment*/
 .padcol{
   padding: 0 px;
@@ -515,6 +658,14 @@ q {
   padding-bottom: 15px;
 }
 
+
+
+
+ .show-below{
+ z-index: -1;
+ }
+ }
+  
 
 
   }
